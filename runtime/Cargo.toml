@@ -1,0 +1,15 @@
+[package]
+name = "tabula-runtime"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+thiserror.workspace = true
+
+[lib]
+name = "tabula_runtime"
+path = "src/lib.rs"
+

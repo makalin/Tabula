@@ -1,0 +1,6 @@
+func main
+	let name  "Mehmet"
+	let count  10
+	print "Name:"  name
+	print "Count:"  count
+

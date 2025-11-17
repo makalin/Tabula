@@ -1,0 +1,19 @@
+[package]
+name = "tabula-linter"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tabula-compiler = { path = "../compiler" }
+clap.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+regex.workspace = true
+
+[[bin]]
+name = "tabula-lint"
+path = "src/main.rs"
+

@@ -1,0 +1,20 @@
+[package]
+name = "tabula-debugger"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tabula-compiler = { path = "../compiler" }
+tabula-runtime = { path = "../runtime" }
+crossterm.workspace = true
+ratatui.workspace = true
+clap.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+
+[[bin]]
+name = "tabula-debug"
+path = "src/main.rs"
+

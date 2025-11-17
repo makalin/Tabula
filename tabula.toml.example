@@ -1,0 +1,19 @@
+[package]
+name = "my-tabula-project"
+version = "0.1.0"
+description = "A Tabula project"
+author = "Your Name"
+
+[dependencies]
+# Add your dependencies here
+# http = "1.0"
+# json = "1.0"
+
+[dev-dependencies]
+# Development dependencies
+# test-framework = "1.0"
+
+[build]
+target = "native"  # or "wasm"
+optimization = "release"  # or "debug"
+

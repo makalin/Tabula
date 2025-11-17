@@ -1,0 +1,21 @@
+[package]
+name = "tabpm"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tabula-compiler = { path = "../compiler" }
+clap.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+reqwest.workspace = true
+anyhow.workspace = true
+tokio.workspace = true
+toml = "0.8"
+
+[[bin]]
+name = "tabpm"
+path = "src/main.rs"
+

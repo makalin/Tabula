@@ -1,0 +1,12 @@
+# Example test file for Tabula
+
+func add a  b
+	return a + b
+
+func test_add
+	let result  add 5  3
+	if result == 8
+		print "Test passed"
+	else
+		print "Test failed"
+

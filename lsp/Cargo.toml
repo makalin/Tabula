@@ -1,0 +1,19 @@
+[package]
+name = "tabula-lsp"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tabula-compiler = { path = "../compiler" }
+tower-lsp.workspace = true
+lsp-types.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+
+[[bin]]
+name = "tabula-lsp"
+path = "src/main.rs"
+

@@ -1,0 +1,27 @@
+[package]
+name = "tabula-compiler"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tabula-runtime = { path = "../runtime" }
+tabula-std = { path = "../std" }
+anyhow.workspace = true
+thiserror.workspace = true
+clap.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+inkwell.workspace = true
+wasmtime.workspace = true
+wat.workspace = true
+
+[lib]
+name = "tabula_compiler"
+path = "src/lib.rs"
+
+[[bin]]
+name = "tabula"
+path = "src/main.rs"
+

@@ -1,0 +1,19 @@
+[package]
+name = "tabula-profiler"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tabula-compiler = { path = "../compiler" }
+clap.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+
+[[bin]]
+name = "tabula-profile"
+path = "src/main.rs"
+

@@ -1,0 +1,19 @@
+[package]
+name = "tabula-repl"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tabula-compiler = { path = "../compiler" }
+tabula-runtime = { path = "../runtime" }
+crossterm.workspace = true
+ratatui.workspace = true
+anyhow.workspace = true
+clap.workspace = true
+
+[[bin]]
+name = "tabula-repl"
+path = "src/main.rs"
+

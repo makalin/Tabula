@@ -1,0 +1,15 @@
+[package]
+name = "tabula-std"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tabula-runtime = { path = "../runtime" }
+anyhow.workspace = true
+
+[lib]
+name = "tabula_std"
+path = "src/lib.rs"
+
