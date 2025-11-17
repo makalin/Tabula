@@ -365,8 +365,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 <div align="center">
 
-**Made with ❤️ by [Mehmet T. AKALIN](https://github.com/makalin)**
-
 [⭐ Star on GitHub](https://github.com/makalin/tabula) · [📖 Documentation](docs/) · [🐛 Report Bug](https://github.com/makalin/tabula/issues) · [💡 Request Feature](https://github.com/makalin/tabula/issues)
 
 </div>
